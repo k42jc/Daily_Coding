@@ -1,46 +1,47 @@
-package com.lxd.practice.concurrent.netty.line;
+package com.lxd.practice.netty.delimiter;
 
 import io.netty.bootstrap.ServerBootstrap;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.LineBasedFrameDecoder;
+import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Netty 服务器
+ * <b>演示使用分隔符解码器(DelimiterBasedFrameDecoder)解决粘包拆包问题</b>
  * Created by liaoxudong on 2017/7/28.
  */
-public class TimeServer {
+public class EchoServer {
 
-    private static final Logger logger = LoggerFactory.getLogger(TimeServer.class);
+    private final static Logger logger = LoggerFactory.getLogger(EchoServer.class);
+    public static final String DELIMITER = "$_";
 
     public static void bootstrap(int port) {
-        // boss线程用于处理客户端连接
         EventLoopGroup bossGroup = new NioEventLoopGroup();
-        // work线程用于从SocketChannel中读写数据
         EventLoopGroup workGroup = new NioEventLoopGroup();
 
-        // Netty Tcp服务启动帮助类
-        ServerBootstrap bootstrap = new ServerBootstrap();
-        // 将boss、work两个线程组注册到启动器，设置TCP参数[so_backlog:1024]，再绑定I/O事件的处理类的具体实现(就是Reactor模式中的具体回调处理)
-        bootstrap.group(bossGroup, workGroup)
+        ServerBootstrap server = new ServerBootstrap();
+        server.group(bossGroup,workGroup)
                 .channel(NioServerSocketChannel.class)
-                .option(ChannelOption.SO_BACKLOG, 1024)
+                .option(ChannelOption.SO_BACKLOG,1024)
                 .childHandler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     protected void initChannel(SocketChannel socketChannel) throws Exception {
-                        socketChannel.pipeline().addLast(new LineBasedFrameDecoder(1024));
-                        socketChannel.pipeline().addLast(new StringDecoder());
-                        socketChannel.pipeline().addLast(new TimeServerHandler());
+                        ChannelPipeline pipeline = socketChannel.pipeline();
+                        // 使用固定分隔符：$_ 作为消息读取完成标识
+                        pipeline.addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer(DELIMITER.getBytes())));
+                        pipeline.addLast(new StringDecoder());
+                        pipeline.addLast(new EchoServerHandler());
                     }
                 });
 
         try {
-            ChannelFuture future = bootstrap.bind(port).sync();
+            ChannelFuture future = server.bind(port).sync();
+            logger.info("Echo 服务器启动完成，port【{}】",port);
             future.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.lxd.practice.concurrent.netty.delimiter;
+package com.lxd.practice.netty.delimiter;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

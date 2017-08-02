@@ -1,4 +1,4 @@
-package com.lxd.practice.concurrent.netty.delimiter;
+package com.lxd.practice.netty.delimiter;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

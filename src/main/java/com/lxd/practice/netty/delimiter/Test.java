@@ -1,4 +1,4 @@
-package com.lxd.practice.concurrent.netty.delimiter;
+package com.lxd.practice.netty.delimiter;
 
 /**
  * Echo客户端与服务端交互示例

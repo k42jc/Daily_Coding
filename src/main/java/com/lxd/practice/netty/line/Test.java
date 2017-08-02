@@ -1,4 +1,4 @@
-package com.lxd.practice.concurrent.netty.line;
+package com.lxd.practice.netty.line;
 
 /**
  * Created by liaoxudong on 2017/7/28.

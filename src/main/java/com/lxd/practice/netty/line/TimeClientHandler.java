@@ -1,4 +1,4 @@
-package com.lxd.practice.concurrent.netty.line;
+package com.lxd.practice.netty.line;
 
 import com.lxd.practice.util.StringUtils;
 import io.netty.buffer.ByteBuf;

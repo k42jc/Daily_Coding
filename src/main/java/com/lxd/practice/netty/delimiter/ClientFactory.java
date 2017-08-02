@@ -1,4 +1,4 @@
-package com.lxd.practice.concurrent.netty.delimiter;
+package com.lxd.practice.netty.delimiter;
 
 import com.lxd.practice.exception.ExceptionCode;
 import com.lxd.practice.exception.PracticeException;

@@ -1,4 +1,4 @@
-package com.lxd.practice.concurrent.netty.line;
+package com.lxd.practice.netty.line;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
