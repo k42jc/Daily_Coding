@@ -21,7 +21,7 @@
 
 [rpc-rpc相关框架](https://github.com/k42jc/Daily_Coding/tree/master/src/main/java/com/lxd/practice/rpc)
 
-[structure-数据结构的java实现，动态数组、链表、栈、队列、树等](https://github.com/k42jc/Daily_Coding/tree/master/src/main/java/com/lxd/practice/stucture)
+[structure-数据结构的java实现，动态数组、链表、栈、队列、树等](https://github.com/k42jc/Daily_Coding/tree/master/src/main/java/com/lxd/practice/structure)
 
 [util-常用工具类包](https://github.com/k42jc/Daily_Coding/tree/master/src/main/java/com/lxd/practice/util)
 
