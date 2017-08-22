@@ -85,13 +85,13 @@ public class Stack {
         }
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Stack stack = new Stack();
-        /*stack.push("1");
+        *//*stack.push("1");
         System.out.println(stack.size());
         System.out.println(stack.top());
         stack.pop();
-        System.out.println(stack.size());*/
+        System.out.println(stack.size());*//*
 
         //计算逆波兰表达式
 
@@ -102,5 +102,147 @@ public class Stack {
         // 最后计算获得值为82 -- > 12x(3+4)-6+8/2
         System.out.println(stack.pop());
 
+    }*/
+
+    public static void main(String[] args) {
+        BinaryTreeNode A = new BinaryTreeNode();
+        A.setValue("A");
+        A.setRoot(true);
+
+        BinaryTreeNode B = new BinaryTreeNode();
+        B.setValue("B");
+        BinaryTreeNode C = new BinaryTreeNode();
+        C.setValue("C");
+        A.setLeft(B);
+        A.setRight(C);
+
+        BinaryTreeNode D = new BinaryTreeNode();
+        D.setValue("D");
+        BinaryTreeNode E = new BinaryTreeNode();
+        E.setValue("E");
+        BinaryTreeNode F = new BinaryTreeNode();
+        F.setValue("F");
+        BinaryTreeNode G = new BinaryTreeNode();
+        G.setValue("G");
+        B.setLeft(D);
+        B.setRight(E);
+        C.setLeft(F);
+        C.setRight(G);
+
+        BinaryTreeNode H = new BinaryTreeNode();
+        H.setValue("H");
+        BinaryTreeNode I = new BinaryTreeNode();
+        I.setValue("I");
+        D.setLeft(H);
+        D.setRight(I);
+        BinaryTreeNode J = new BinaryTreeNode();
+        J.setValue("J");
+        BinaryTreeNode K = new BinaryTreeNode();
+        K.setValue("K");
+        BinaryTreeNode L = new BinaryTreeNode();
+        L.setValue("L");
+        BinaryTreeNode M = new BinaryTreeNode();
+        M.setValue("M");
+        BinaryTreeNode N = new BinaryTreeNode();
+        N.setValue("N");
+        I.setLeft(M);
+        I.setRight(N);
+        F.setLeft(J);
+        F.setRight(K);
+        G.setLeft(L);
+
+        /**
+         *          A
+         *       /     \
+         *      B       C
+         *     /  \     /\
+         *    D    E   F  G
+         *   / \     / \  /
+         *  H   I   J  K L
+         *     / \
+         *    M   N
+         */
+        Stack stack = new Stack();
+//        stack.treeErgodic1(A);
+        // 输出：A B D H I M N E C F J K G L
+//        stack.treeErgodic2(A);
+        // 输出：H D M I N B E A J F K C L G
+        stack.treeErgodic3(A);
+        // 输出：H M N I D E B J K F L G C A
+
+    }
+
+
+    /**
+     * 树的深度遍历：前序遍历:::根节点->左子节点->右子节点
+     */
+    public void treeErgodic1(BinaryTreeNode node){
+        if (node == null || !node.hasChild()) {
+            return;
+        }
+        push(node);
+        while (size()>0) {
+            BinaryTreeNode pop = (BinaryTreeNode) pop();
+            System.out.print(pop.getValue()+" ");
+            if (pop.hasRight()) {
+                push(pop.getRight());
+            }
+            if(pop.hasLeft()){
+                push(pop.getLeft());
+            }
+        }
+        // 从右节点至左依次压入栈，再依次弹出
+    }
+    //，后续遍历，中序遍历。其中，中序遍历只对二叉树有效
+
+    /**
+     * 二叉树中序遍历:左子节点->根节点->右子节点
+     * @param node
+     */
+    public void treeErgodic2(BinaryTreeNode node){
+        push(node);
+        while (size() > 0) {
+            BinaryTreeNode pop = (BinaryTreeNode) pop();
+            if(!pop.hasChild() || !pop.hasLeft()){
+                System.out.print(pop.getValue()+" ");
+            }else{
+                if(pop.hasRight()){
+                   push(pop.getRight());
+                }
+                if(pop.hasLeft()){
+                    BinaryTreeNode lNode = pop.getLeft();
+                    // 关键操作 否则根节点遍历不到
+                    pop.setLeft(null);
+                    push(pop);
+                    push(lNode);
+                }
+            }
+        }
+    }
+
+    /**
+     * 后序遍历：左子节点->右子节点->根节点
+     * @param node
+     */
+    public void treeErgodic3(BinaryTreeNode node) {
+        push(node);
+        while (size() > 0) {
+            BinaryTreeNode pop = (BinaryTreeNode) pop();
+            if(!pop.hasChild()){
+                System.out.print(pop.getValue()+" ");
+            }else{
+                BinaryTreeNode pNode = pop;
+                push(pNode);
+                if(pop.hasRight()){
+                    push(pop.getRight());
+                }
+                if(pop.hasLeft()){
+                    push(pop.getLeft());
+                }
+                // 关键操作 需要先将左右子节点入栈后再置空
+                pNode.setLeft(null);
+                pNode.setRight(null);
+            }
+        }
     }
 }
