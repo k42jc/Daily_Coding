@@ -25,7 +25,6 @@ public class ZKClient {
 
     public static void main(String[] args) throws Exception {
         client = CuratorFrameworkFactory.newClient(ZK_CONNECT_ADDR, ZK_SESSION_TIMEOUT_MS, ZK_CONNCTION_TIMEOUT_MS, new ExponentialBackoffRetry(1000, 3));
-//        CuratorFrameworkFactory.builder().connectString()
 //        System.out.println(ZK_CONNECT_ADDR);
         String path = "/opsoa/com.xinguodu.openplatform.common.soa.protocol.IProtocol";
         client.start();
