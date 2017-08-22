@@ -1,4 +1,4 @@
-package com.lxd.practice.rmi.server;
+package com.lxd.practice.rpc.rmi.server;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;

@@ -1,4 +1,4 @@
-package com.lxd.practice.rmi.server;
+package com.lxd.practice.rpc.rmi.server;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;

@@ -1,6 +1,6 @@
-package com.lxd.practice.rmi.client;
+package com.lxd.practice.rpc.rmi.client;
 
-import com.lxd.practice.rmi.server.HelloService;
+import com.lxd.practice.rpc.rmi.server.HelloService;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
