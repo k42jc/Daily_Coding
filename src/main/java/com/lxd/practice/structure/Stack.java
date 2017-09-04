@@ -167,10 +167,90 @@ public class Stack {
         // 输出：A B D H I M N E C F J K G L
 //        stack.treeErgodic2(A);
         // 输出：H D M I N B E A J F K C L G
-        stack.treeErgodic3(A);
+//        stack.treeErgodic3(A);
         // 输出：H M N I D E B J K F L G C A
 
+//        stack.raverse(A);
+//        stack.traverse1(A);// A B D H I M N E C F J K G L
+//        stack.traverse2(A);//H D M I N B E A J F K C L G
+        stack.traverse3(A);
+
+
     }
+
+    /**
+     * 树的递归遍历
+     * @param node
+     */
+    public void raverse(BinaryTreeNode node) {
+        if(node!= null){
+            //放在最前面 前序遍历
+            System.out.print(node.getValue()+" ");
+//            System.out.print(node.getValue()+" ");
+            raverse(node.getLeft());
+            // 中间 中序遍历
+//            System.out.print(node.getValue()+" ");
+            raverse(node.getRight());
+            // 最后 后序遍历
+//            System.out.print(node.getValue()+" ");
+        }
+    }
+
+    /**
+     * 使用栈前序遍历树节点
+     * @param node
+     */
+    public void traverse1(BinaryTreeNode node) {
+        BinaryTreeNode pNode = node;
+        while (pNode != null || size() > 0) {
+            if (pNode != null) {
+                System.out.print(pNode.getValue()+" ");
+                push(pNode);
+                pNode = pNode.getLeft();
+            }else{
+                pNode = ((BinaryTreeNode) pop()).getRight();
+            }
+        }
+    }
+
+    /**
+     * 使用栈中序遍历树
+     * @param node
+     */
+    public void traverse2(BinaryTreeNode node) {
+        BinaryTreeNode pNode = node;
+        while (pNode != null || size() > 0) {
+            if (pNode != null) {
+                push(pNode);
+                pNode = pNode.getLeft();
+            }else{
+                BinaryTreeNode pop = (BinaryTreeNode) pop();
+                System.out.print(pop.getValue()+" ");
+                pNode = pop.getRight();
+            }
+        }
+    }
+
+    /**
+     * 使用栈后序遍历树
+     * @param node
+     */
+    public void traverse3(BinaryTreeNode node) {
+        BinaryTreeNode pNode = node;
+        while (pNode != null || size() > 0) {
+            if (pNode != null) {
+                push(pNode);
+                BinaryTreeNode left = pNode.getLeft();
+                pNode = left;
+            }else{
+                BinaryTreeNode pop = (BinaryTreeNode) pop();
+                System.out.println(pop.getValue());
+                pNode = pop;
+            }
+        }
+    }
+
+
 
 
     /**
