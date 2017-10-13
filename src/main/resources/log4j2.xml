@@ -46,6 +46,7 @@
         <logger name="org.mybatis" level="DEBUG" additivity="true" />
         <logger name="com.ibatis" level="DEBUG" additivity="true" />
         <logger name="java.sql" level="DEBUG" additivity="true" />
+        <logger name="org.apache.zookeeper" level="ERROR" additivity="true" />
 
         <Root level="DEBUG">
             <!-- <AppenderRef ref="Async" /> -->
