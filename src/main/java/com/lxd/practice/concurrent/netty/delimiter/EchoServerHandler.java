@@ -28,7 +28,7 @@ public class EchoServerHandler extends ChannelHandlerAdapter {
         logger.info("* Echo server recv msg：{}",readMsg);
 
         String sendMsg = readMsg + EchoServer.DELIMITER;
-        logger.info("# Echo server send msg：{}",sendMsg);
+        logger.info("# Echo server send msg：{}",readMsg);
         ByteBuf byteBuf = Unpooled.copiedBuffer(sendMsg.getBytes());
         ctx.write(byteBuf);
     }
