@@ -29,26 +29,23 @@ public class LockConditionDemo {
      */
     public static void demo(int param){
         target = param;
-        Thread thread1 = new Thread() {
-            @Override
-            public void run() {
-                lock.lock();
-                try {
-                    for (int i = 0; i < 10; i++) {//为了明显期间，给一个循环
-                        while (target != 1) {
-                            cond1.await();
-                        }
-                        System.out.print("A");
-                        target = 2;
-                        cond2.signal();
+        Thread thread1 = new Thread(() -> {
+            lock.lock();
+            try {
+                for (int i = 0; i < 10; i++) {//为了明显期间，给一个循环
+                    while (target != 1) {
+                        cond1.await();
                     }
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } finally {
-                    lock.unlock();
+                    System.out.print("A");
+                    target = 2;
+                    cond2.signal();
                 }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } finally {
+                lock.unlock();
             }
-        };
+        });
         Thread thread2 = new Thread() {
             @Override
             public void run() {
@@ -69,9 +66,7 @@ public class LockConditionDemo {
                 }
             }
         };
-        Thread thread3 = new Thread() {
-            @Override
-            public void run() {
+        Thread thread3 = new Thread(() -> {
                 lock.lock();
                 try {
                     for (int i = 0; i < 10; i++) {//为了明显期间，给一个循环
@@ -87,8 +82,7 @@ public class LockConditionDemo {
                 } finally {
                     lock.unlock();
                 }
-            }
-        };
+            });
         Thread thread4 = new Thread() {
             @Override
             public void run() {

@@ -1,5 +1,7 @@
 package com.lxd.daily.thread.deadLock;
 
+import com.lxd.daily.util.JStackUtils;
+
 /**
  * 演示死锁：互相等待
  * 两个个线程交叉持有"两把锁"的情况，在A线程获取到锁A后，继续获取锁B。此时锁B由B线程持有并未释放，且B线程正试图去获取锁A
@@ -55,6 +57,8 @@ public class DeadLockA {
         for(int i=0;i<20;i++) {
             new ThreadA("A").start();
             new ThreadB("B").start();
+            String javaStackTrace = JStackUtils.getJavaStackTrace();
+            System.out.println(javaStackTrace);
         }
     }
 }
