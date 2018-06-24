@@ -20,7 +20,8 @@ public class BubboSort {
         if(arrays == null || arrays.length <= 0)
             throw new IllegalArgumentException("数组为空");
         for(int i=0;i<arrays.length-1;i++) {
-            for(int j=i+1;j<arrays.length;j++) {// 每一轮将array[i]与array[i+1]~array[i-1]内所有数比较，如果某个数不符合排序则交换顺序
+            for(int j=i+1;j<arrays.length;j++) {
+                // 每一轮将array[i]与array[i+1]~array[i-1]内所有数比较，如果某个数不符合排序则交换顺序
                 int iValue = arrays[i];
                 int jValue = arrays[j];
                 if (iValue > jValue) {
