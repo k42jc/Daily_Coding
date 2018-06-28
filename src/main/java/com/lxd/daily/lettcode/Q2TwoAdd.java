@@ -2,9 +2,7 @@ package com.lxd.daily.lettcode;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * 考验链表的遍历与节点新增
@@ -85,7 +83,7 @@ public class Q2TwoAdd {
 
 
     public static void main(String[] args){
-        ListNode listNode = new ListNode(3);
+        /*ListNode listNode = new ListNode(3);
         ListNode listNode1 = new ListNode(4);
         ListNode listNode2 = new ListNode(2);
         listNode.next = listNode1;
@@ -107,6 +105,90 @@ public class Q2TwoAdd {
         System.arraycopy(nums1,0,ints1,0,nums1.length);
         System.arraycopy(nums2,0,ints1,nums1.length,nums2.length);
         System.out.println(ints1);
+
+        Set<Object> objects = new HashSet<>();
+        Iterator<Object> iterator = objects.iterator();
+        while (iterator.hasNext()) {
+            Object next = iterator.next();
+
+        }*/
+        Set<Integer> objects = new LinkedHashSet<>();
+        objects.add(1);
+        objects.add(2);
+        objects.add(3);
+        objects.add(4);
+        objects.add(5);
+        Iterator<Integer> iterator1 = objects.iterator();
+        while (iterator1.hasNext()) {
+            Integer next = iterator1.next();
+            System.out.println(next);
+        }
+        /*ArrayList<Integer> objects1 = new ArrayList<>();
+        Integer[] objects2 = (Integer[])objects.toArray();*/
+        int[] nums = {1,2,3,3,4,4,5,6,7,8,9,9};
+        int[] test = test(nums);
+        System.out.println(test);
+        System.out.println(test2(nums));
+
+
+        double pow = Math.sqrt(16);
+        System.out.println(pow);
+
+        System.out.println(judgeSquareSum(8));
+        System.out.println(judgeSquareSum(Integer.MAX_VALUE));
     }
 
+    public static boolean judgeSquareSum(int c) {
+        if(c < 0){
+            return false;
+        }
+        int middle = (int)Math.sqrt(c);
+        Set<Integer> nums = new HashSet<>();
+        for(int i=0;i<=middle;i++){
+            nums.add(i * i);
+        }
+        Iterator<Integer> iterator = nums.iterator();
+        while (iterator.hasNext()) {
+            Integer next = iterator.next();
+            if (nums.contains(c - next)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static int[] test(int[] nums){
+        if(nums == null || nums.length == 0){
+            return nums;
+        }
+        Set<Integer> set = new LinkedHashSet<Integer>();
+        for(int i:nums){
+            set.add(i);
+        }
+        int[] result = new int[set.size()];
+        int index =0;
+        Iterator<Integer> iterator = set.iterator();
+        while (iterator.hasNext()){
+            result[index++] = iterator.next();
+        }
+        return result;
+    }
+
+    public static List<Integer> test2(int[] nums){
+        if(nums == null || nums.length == 0){
+            return null;
+        }
+        int pre = nums[0];
+        List<Integer> result = new ArrayList<Integer>();
+        result.add(pre);
+        for(int i=1;i<nums.length;i++){
+
+            if(pre == nums[i]){
+                continue;
+            }
+            pre = nums[i];
+            result.add(pre);
+        }
+        return result;
+    }
 }

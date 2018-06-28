@@ -1,10 +1,12 @@
 package com.lxd.daily.arithmetic.tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * 非递归二叉树遍历
- * 使用栈遍历
+ * 使用栈迭代遍历
  */
 public class StackBTreeSearch {
 
@@ -13,53 +15,128 @@ public class StackBTreeSearch {
     public static void main(String[] args) {
         Node tree = RecBinaryTreeSearch.buildTree();
 //        preList(tree);
-
-//        middleList(tree);
-            // 栈后续遍历比较复杂 算了 不研究茴字的五种写法了，使用递归就挺方便的，如果真要用到栈后续遍历，百度/谷歌即可
-//        postList(tree);
+        List<Integer> integers = new StackBTreeSearch().preList(tree);
+        System.out.println(integers);
+        List<Integer> integes = new StackBTreeSearch().middleList(tree);
+        System.out.println(integes);
+        List<Integer> integerss = new StackBTreeSearch().postList(tree);
+        System.out.println(integerss);
     }
 
     /**
-     * 使用栈前序遍历
-     *
+     * 迭代式前序遍历：操作根节点->访问左子节点->访问右子节点
      * @param tree
+     * @return
      */
-    private static void preList(Node tree) {
-        while (tree != null) {
-            while (tree != null) {
-                System.out.println(tree.getValue());
-                stack.push(tree);
-                tree = tree.getLeft();
-            }
-            tree = stack.poll();//使用poll 无元素时弹出null 如果是pop则会在无元素时抛出NoSuchElementException
-            // 这里比较关键 左子树出栈时需要判断是否子节点，如果是子节点则需要将父节点出栈
-            // 另外还要考虑到右子树最后一个子节点时栈为空时不再弹出
-            if (tree.isLeaf() && !stack.isEmpty())
-                tree = stack.poll();
-            tree = tree.getRight();
-
+    public List<Integer> preList(Node tree){
+        if (tree == null) {
+            throw new IllegalArgumentException("tree");
         }
+        LinkedList<TreeNodeOperate> stack = new LinkedList<>();
+        // 将树结构入栈
+        stack.push(new TreeNodeOperate(0,tree));
+        // 使用栈对树结构迭代操作
+        List<Integer> resultList = new ArrayList<>();
+        while (!stack.isEmpty()) {
+            TreeNodeOperate nodeOperate = stack.poll();// 不使用pop 以免栈内无元素时抛出异常
+            if (nodeOperate.node == null) {
+                continue;
+            }else{
+                if (nodeOperate.type == 1) {
+                    resultList.add(nodeOperate.node.getValue());
+                }else{
+                    // 实际顺序为：操作根节点->访问左子节点->访问右子节点
+                    // 考虑到栈LIFO特性，反过来入栈
+                    stack.push(new TreeNodeOperate(0,nodeOperate.node.getRight()));
+                    stack.push(new TreeNodeOperate(0,nodeOperate.node.getLeft()));
+                    stack.push(new TreeNodeOperate(1,nodeOperate.node));
+                }
+            }
+        }
+        return resultList;
     }
 
     /**
-     * 栈中序遍历
-     *
+     * 迭代式前序遍历：操作根节点->访问左子节点->访问右子节点
      * @param tree
+     * @return
      */
-    private static void middleList(Node tree) {
-        while (tree != null) {
-            while (tree != null) {
-                stack.push(tree);
-                tree = tree.getLeft();
+    public List<Integer> middleList(Node tree){
+        if (tree == null) {
+            throw new IllegalArgumentException("tree");
+        }
+        LinkedList<TreeNodeOperate> stack = new LinkedList<>();
+        // 将树结构入栈
+        stack.push(new TreeNodeOperate(0,tree));
+        // 使用栈对树结构迭代操作
+        List<Integer> resultList = new ArrayList<>();
+        while (!stack.isEmpty()) {
+            TreeNodeOperate nodeOperate = stack.poll();// 不使用pop 以免栈内无元素时抛出异常
+            if (nodeOperate.node == null) {
+                continue;
+            }else{
+                if (nodeOperate.type == 1) {
+                    resultList.add(nodeOperate.node.getValue());
+                }else{
+                    // 入栈顺序根据谦虚调整一下即可
+                    // 前序实际顺序是：中-左-右
+                    // 而中序实际顺序是：左-中-右，所以把入栈顺序调整为左子节点以操作类型最后入栈
+                    stack.push(new TreeNodeOperate(0,nodeOperate.node.getRight()));
+                    stack.push(new TreeNodeOperate(1,nodeOperate.node));
+                    stack.push(new TreeNodeOperate(0,nodeOperate.node.getLeft()));
+                }
             }
-            tree = stack.poll();
-            System.out.println(tree.getValue());
-            if (tree.isLeaf() && !stack.isEmpty()) {
-                tree = stack.poll();
-                System.out.println(tree.getValue());
+        }
+        return resultList;
+    }
+
+    /**
+     * 迭代式前序遍历：操作根节点->访问左子节点->访问右子节点
+     * @param tree
+     * @return
+     */
+    public List<Integer> postList(Node tree){
+        if (tree == null) {
+            throw new IllegalArgumentException("tree");
+        }
+        LinkedList<TreeNodeOperate> stack = new LinkedList<>();
+        // 将树结构入栈
+        stack.push(new TreeNodeOperate(0,tree));
+        // 使用栈对树结构迭代操作
+        List<Integer> resultList = new ArrayList<>();
+        while (!stack.isEmpty()) {
+            TreeNodeOperate nodeOperate = stack.poll();// 不使用pop 以免栈内无元素时抛出异常
+            if (nodeOperate.node == null) {
+                continue;
+            }else{
+                if (nodeOperate.type == 1) {
+                    resultList.add(nodeOperate.node.getValue());
+                }else{
+                    // 入栈顺序根据谦虚调整一下即可
+                    // 前序实际顺序是：中-左-右
+                    // 中序实际顺序是：左-中-右
+                    // 后序：左-右-中
+                    stack.push(new TreeNodeOperate(1,nodeOperate.node));
+                    stack.push(new TreeNodeOperate(0,nodeOperate.node.getRight()));
+                    stack.push(new TreeNodeOperate(0,nodeOperate.node.getLeft()));
+                }
             }
-            tree = tree.getRight();
+        }
+        return resultList;
+    }
+
+    /**
+     * 对树节点对应操作的封装
+     */
+    private class TreeNodeOperate{
+        int type = 0;// 节点操作类型 0 访问 1 操作
+        Node node;// 对应树节点
+
+        public TreeNodeOperate(int type, Node node) {
+            this.type = type;
+            this.node = node;
         }
     }
+
 
 }
