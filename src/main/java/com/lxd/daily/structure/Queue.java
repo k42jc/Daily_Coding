@@ -27,6 +27,11 @@ public class Queue {
      */
     public Object dequeue() {
         Object o = arrays[0];
+        // 将数组元素左移一位
+        int i=0;
+        for(int j=0;j<arrays.length;j++) {
+
+        }
         Object[] objects = new Object[16];
         if(size >1)
             System.arraycopy(arrays,1,objects,0,size-1);
