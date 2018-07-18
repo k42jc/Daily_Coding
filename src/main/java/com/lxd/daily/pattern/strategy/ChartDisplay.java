@@ -1,4 +1,4 @@
-package com.lxd.daily.pattern;
+package com.lxd.daily.pattern.strategy;
 
 /**
  * 图表显示接口

@@ -11,6 +11,23 @@ public class App {
     private static volatile boolean isRunning = true;
 
     public static void main(String[] args) {
+        byte a = 0;
+        char b = 0;
+        short c = a;
+        int d = c;
+        d = b;
+        float demo = 0;
+        long e = d;
+        float f = e;
+        double g = f;
+        g =e;
+        e = (long)demo;
+        long x = 220000000000000000L;
+        float y = x;
+        System.out.println(y);
+        System.out.println((int)y);
+
+        System.out.println(e);
         /*Runnable runnable = new Runnable(){
             @Override
             public void run() {
@@ -58,7 +75,7 @@ public class App {
         }*/
 
 
-demo();
+//demo();
 
 
     }
