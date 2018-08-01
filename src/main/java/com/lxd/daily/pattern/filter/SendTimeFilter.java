@@ -21,8 +21,4 @@ public class SendTimeFilter extends EmailFilter{
         next.doFilter(results,condition);
     }
 
-    @Override
-    String getType() {
-        return type;
-    }
 }

@@ -15,9 +15,4 @@ public abstract class EmailFilter implements Filter{
         next = filter;
     }
 
-    /**
-     * 获取过滤类型，
-     * @return
-     */
-    abstract String getType();
 }

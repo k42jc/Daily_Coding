@@ -23,8 +23,4 @@ public class SubjectFilter extends EmailFilter{
         next.doFilter(results,condition);
     }
 
-    @Override
-    String getType() {
-        return this.type;
-    }
 }
