@@ -1,0 +1,1088 @@
+2018-06-24 17:46:04,635  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送消息...
+2018-06-24 17:46:04,728  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 服务启动完成...
+2018-06-24 17:46:04,793  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:1
+2018-06-24 17:46:04,795  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:46:04
+
+2018-06-24 17:46:04,807  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Server resp：2018-06-24 17:46:04
+2018-06-24 17:46:28,475  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,475  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,475  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,475  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:2
+2018-06-24 17:46:28,476  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,476  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,476  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,476  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,476  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:3
+2018-06-24 17:46:28,477  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,477  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,477  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:4
+2018-06-24 17:46:28,477  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,477  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,477  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,477  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:5
+2018-06-24 17:46:28,477  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,477  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,478  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,478  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,478  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,478  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,479  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,479  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,479  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,479  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,480  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,480  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,480  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,480  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:6
+2018-06-24 17:46:28,480  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,480  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,481  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,481  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:7
+2018-06-24 17:46:28,481  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,481  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,481  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,481  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:8
+2018-06-24 17:46:28,481  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,481  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,482  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:9
+2018-06-24 17:46:28,482  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,482  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,482  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,482  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:10
+2018-06-24 17:46:28,482  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,483  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:11
+2018-06-24 17:46:28,483  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,483  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:12
+2018-06-24 17:46:28,483  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,483  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:13
+2018-06-24 17:46:28,484  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,484  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:14
+2018-06-24 17:46:28,484  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,484  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:15
+2018-06-24 17:46:28,485  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,485  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:16
+2018-06-24 17:46:28,485  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,485  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,485  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:17
+2018-06-24 17:46:28,485  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,485  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,486  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,486  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:18
+2018-06-24 17:46:28,486  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,486  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,487  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,486  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,487  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,487  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,488  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,488  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,488  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:19
+2018-06-24 17:46:28,488  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,488  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,489  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,489  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:20
+2018-06-24 17:46:28,489  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,489  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,489  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,489  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:21
+2018-06-24 17:46:28,489  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,490  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,490  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,490  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:22
+2018-06-24 17:46:28,490  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,490  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,490  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,490  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:23
+2018-06-24 17:46:28,491  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,491  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,491  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:24
+2018-06-24 17:46:28,491  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,492  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,492  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:25
+2018-06-24 17:46:28,492  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,492  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,492  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,492  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:26
+2018-06-24 17:46:28,493  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,493  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,493  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,493  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:27
+2018-06-24 17:46:28,493  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,493  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,494  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:28
+2018-06-24 17:46:28,494  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,494  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,494  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,494  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:29
+2018-06-24 17:46:28,494  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,494  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,495  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:30
+2018-06-24 17:46:28,495  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,495  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,495  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,495  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:31
+2018-06-24 17:46:28,495  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,495  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,496  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,496  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,496  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:32
+2018-06-24 17:46:28,496  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,497  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,497  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,497  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:33
+2018-06-24 17:46:28,497  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,497  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,497  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:34
+2018-06-24 17:46:28,497  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,497  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,497  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:35
+2018-06-24 17:46:28,498  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,498  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,498  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,498  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:36
+2018-06-24 17:46:28,498  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,498  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,498  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:37
+2018-06-24 17:46:28,498  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,498  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,499  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:38
+2018-06-24 17:46:28,499  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,500  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:39
+2018-06-24 17:46:28,500  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,500  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:40
+2018-06-24 17:46:28,500  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,501  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,501  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,501  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:41
+2018-06-24 17:46:28,501  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,502  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,502  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,502  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:42
+2018-06-24 17:46:28,502  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,502  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,503  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:43
+2018-06-24 17:46:28,503  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,503  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,503  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,504  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,504  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,504  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,504  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,505  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,505  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:44
+2018-06-24 17:46:28,506  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,506  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,506  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:45
+2018-06-24 17:46:28,506  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,506  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,506  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:46
+2018-06-24 17:46:28,506  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,506  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,506  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,507  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:47
+2018-06-24 17:46:28,507  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,507  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,507  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,507  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:48
+2018-06-24 17:46:28,507  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,507  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,507  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:49
+2018-06-24 17:46:28,507  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:50
+2018-06-24 17:46:28,508  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:51
+2018-06-24 17:46:28,508  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:52
+2018-06-24 17:46:28,508  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,508  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:53
+2018-06-24 17:46:28,509  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:54
+2018-06-24 17:46:28,509  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:55
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:56
+2018-06-24 17:46:28,509  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,509  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,510  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:57
+2018-06-24 17:46:28,510  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,510  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,510  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：xxxxxx
+
+2018-06-24 17:46:28,510  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:58
+2018-06-24 17:46:28,510  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,510  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:59
+2018-06-24 17:46:28,510  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,511  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:60
+2018-06-24 17:46:28,523  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,524  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:61
+2018-06-24 17:46:28,524  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,524  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:62
+2018-06-24 17:46:28,524  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,525  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:63
+2018-06-24 17:46:28,537  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,537  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:64
+2018-06-24 17:46:28,538  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,538  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:65
+2018-06-24 17:46:28,538  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,538  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:66
+2018-06-24 17:46:28,538  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,548  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:67
+2018-06-24 17:46:28,549  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,550  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:68
+2018-06-24 17:46:28,550  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,551  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:69
+2018-06-24 17:46:28,552  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,554  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:70
+2018-06-24 17:46:28,555  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,555  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:71
+2018-06-24 17:46:28,555  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,556  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:72
+2018-06-24 17:46:28,556  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,556  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:73
+2018-06-24 17:46:28,557  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,557  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:74
+2018-06-24 17:46:28,557  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,557  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:75
+2018-06-24 17:46:28,561  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:76
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:77
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:78
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:79
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:80
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,562  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:81
+2018-06-24 17:46:28,563  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,563  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:82
+2018-06-24 17:46:28,563  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,563  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:83
+2018-06-24 17:46:28,563  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,564  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:84
+2018-06-24 17:46:28,564  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,564  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:85
+2018-06-24 17:46:28,564  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,564  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:86
+2018-06-24 17:46:28,564  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,565  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:87
+2018-06-24 17:46:28,565  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,565  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:88
+2018-06-24 17:46:28,565  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,565  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:89
+2018-06-24 17:46:28,565  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,565  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:90
+2018-06-24 17:46:28,566  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,566  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:91
+2018-06-24 17:46:28,566  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,567  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:92
+2018-06-24 17:46:28,567  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,567  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:93
+2018-06-24 17:46:28,568  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,568  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:94
+2018-06-24 17:46:28,568  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,568  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:95
+2018-06-24 17:46:28,569  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,569  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:96
+2018-06-24 17:46:28,569  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,570  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:97
+2018-06-24 17:46:28,570  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,570  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:98
+2018-06-24 17:46:28,570  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,571  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:99
+2018-06-24 17:46:28,571  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,571  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:100
+2018-06-24 17:46:28,571  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:46:28,572  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：xxxxxx;counter is:101
+2018-06-24 17:46:28,572  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：BAD ORDER
+
+2018-06-24 17:47:51,255  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,256  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,256  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,256  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,256  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:102
+2018-06-24 17:47:51,256  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,256  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,257  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,257  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:103
+2018-06-24 17:47:51,257  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,257  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,257  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,257  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,257  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,258  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:104
+2018-06-24 17:47:51,258  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,258  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,258  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,258  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:105
+2018-06-24 17:47:51,259  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,259  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,259  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,259  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,259  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:106
+2018-06-24 17:47:51,259  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,260  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,260  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,260  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,260  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:107
+2018-06-24 17:47:51,260  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,260  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,261  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,261  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:108
+2018-06-24 17:47:51,261  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,261  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,261  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,261  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:109
+2018-06-24 17:47:51,261  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,261  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,262  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,262  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:110
+2018-06-24 17:47:51,262  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,262  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,262  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,262  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:111
+2018-06-24 17:47:51,263  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,263  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,263  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:112
+2018-06-24 17:47:51,263  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,263  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,264  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,264  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:113
+2018-06-24 17:47:51,264  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,264  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,264  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,264  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:114
+2018-06-24 17:47:51,264  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,264  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,265  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,265  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:115
+2018-06-24 17:47:51,265  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,265  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,265  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:116
+2018-06-24 17:47:51,265  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,266  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,266  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:117
+2018-06-24 17:47:51,266  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,266  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,266  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,266  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:118
+2018-06-24 17:47:51,266  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,267  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,267  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,267  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:119
+2018-06-24 17:47:51,267  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,267  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,267  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,267  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:120
+2018-06-24 17:47:51,268  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,268  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,268  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,268  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:121
+2018-06-24 17:47:51,268  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,268  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,268  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,268  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:122
+2018-06-24 17:47:51,269  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,269  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,269  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,269  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:123
+2018-06-24 17:47:51,269  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,269  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,270  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:124
+2018-06-24 17:47:51,270  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,270  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,270  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,270  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:125
+2018-06-24 17:47:51,270  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,270  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,270  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,271  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:126
+2018-06-24 17:47:51,271  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,271  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,271  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,271  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,271  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,272  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,272  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:127
+2018-06-24 17:47:51,272  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,272  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,272  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,272  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,273  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,273  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,273  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:128
+2018-06-24 17:47:51,273  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,273  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,273  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,273  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,274  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,274  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:129
+2018-06-24 17:47:51,274  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,274  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,275  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,275  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:130
+2018-06-24 17:47:51,275  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,275  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,276  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,276  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:131
+2018-06-24 17:47:51,276  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,276  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,276  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,277  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:132
+2018-06-24 17:47:51,277  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,277  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,277  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,277  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,278  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,278  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:133
+2018-06-24 17:47:51,278  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,278  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,278  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,279  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,279  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:134
+2018-06-24 17:47:51,279  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,279  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,279  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,279  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:135
+2018-06-24 17:47:51,279  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,280  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,280  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,280  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:136
+2018-06-24 17:47:51,280  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,280  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,280  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,280  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,281  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,281  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,281  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,281  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:137
+2018-06-24 17:47:51,281  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:138
+2018-06-24 17:47:51,282  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:139
+2018-06-24 17:47:51,282  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,282  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,283  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:140
+2018-06-24 17:47:51,283  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,283  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,283  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,283  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:141
+2018-06-24 17:47:51,283  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,284  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:142
+2018-06-24 17:47:51,284  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,284  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,284  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:143
+2018-06-24 17:47:51,284  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,284  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,285  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:144
+2018-06-24 17:47:51,285  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,285  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:145
+2018-06-24 17:47:51,285  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,286  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:146
+2018-06-24 17:47:51,286  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,286  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - 发送信息：QUERY TIME
+
+2018-06-24 17:47:51,286  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:147
+2018-06-24 17:47:51,287  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,287  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:148
+2018-06-24 17:47:51,288  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,288  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:149
+2018-06-24 17:47:51,289  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,289  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:150
+2018-06-24 17:47:51,290  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,290  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:151
+2018-06-24 17:47:51,290  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,290  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:152
+2018-06-24 17:47:51,291  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,291  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:153
+2018-06-24 17:47:51,291  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,291  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:154
+2018-06-24 17:47:51,292  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,292  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:155
+2018-06-24 17:47:51,292  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,292  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:156
+2018-06-24 17:47:51,292  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,293  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:157
+2018-06-24 17:47:51,293  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,293  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:158
+2018-06-24 17:47:51,294  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,294  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:159
+2018-06-24 17:47:51,294  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,294  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:160
+2018-06-24 17:47:51,294  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,294  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:161
+2018-06-24 17:47:51,294  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,295  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:162
+2018-06-24 17:47:51,295  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,295  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:163
+2018-06-24 17:47:51,295  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,295  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:164
+2018-06-24 17:47:51,295  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,296  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:165
+2018-06-24 17:47:51,296  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,296  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:166
+2018-06-24 17:47:51,296  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,296  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:167
+2018-06-24 17:47:51,296  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,297  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:168
+2018-06-24 17:47:51,297  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,297  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:169
+2018-06-24 17:47:51,297  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,297  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:170
+2018-06-24 17:47:51,297  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,298  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:171
+2018-06-24 17:47:51,298  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,298  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:172
+2018-06-24 17:47:51,298  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,298  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:173
+2018-06-24 17:47:51,298  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,299  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:174
+2018-06-24 17:47:51,299  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,299  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:175
+2018-06-24 17:47:51,299  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,300  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:176
+2018-06-24 17:47:51,300  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,300  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:177
+2018-06-24 17:47:51,300  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,300  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:178
+2018-06-24 17:47:51,300  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,300  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:179
+2018-06-24 17:47:51,301  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,301  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:180
+2018-06-24 17:47:51,301  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,301  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:181
+2018-06-24 17:47:51,301  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,302  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:182
+2018-06-24 17:47:51,302  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,302  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:183
+2018-06-24 17:47:51,302  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,302  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:184
+2018-06-24 17:47:51,302  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,303  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:185
+2018-06-24 17:47:51,303  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,303  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:186
+2018-06-24 17:47:51,303  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,304  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:187
+2018-06-24 17:47:51,304  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,304  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:188
+2018-06-24 17:47:51,304  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,304  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:189
+2018-06-24 17:47:51,304  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,305  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:190
+2018-06-24 17:47:51,305  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,305  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:191
+2018-06-24 17:47:51,305  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,305  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:192
+2018-06-24 17:47:51,305  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,306  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:193
+2018-06-24 17:47:51,306  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,306  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:194
+2018-06-24 17:47:51,306  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,306  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:195
+2018-06-24 17:47:51,306  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,306  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:196
+2018-06-24 17:47:51,307  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,307  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:197
+2018-06-24 17:47:51,307  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,307  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:198
+2018-06-24 17:47:51,307  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,308  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:199
+2018-06-24 17:47:51,308  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,308  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:200
+2018-06-24 17:47:51,308  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:47:51,308  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - * Recv Client msg：QUERY TIME;counter is:201
+2018-06-24 17:47:51,308  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.line.TimeServerHandler - Send msg to Client：2018-06-24 17:47:51
+
+2018-06-24 17:49:42,782  [nioEventLoopGroup-0-0] ERROR com.lxd.daily.netty.line.TimeServerHandler - 客户端异常退出...
+2018-06-24 17:49:42,785  [nioEventLoopGroup-1-0] ERROR com.lxd.daily.netty.line.TimeServerHandler - 服务异常...
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_172]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_172]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_172]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+2018-06-24 17:51:55,662  [main] INFO  com.lxd.daily.netty.delimiter.EchoServer - Echo 服务器启动完成，port【8888】
+2018-06-24 17:52:14,417  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.delimiter.EchoClientHandler - * Echo client send msg：Hello world!
+2018-06-24 17:52:14,544  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.delimiter.EchoServerHandler - * Echo server recv msg：Hello world!
+2018-06-24 17:52:14,545  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.delimiter.EchoServerHandler - # Echo server send msg：Hello world!
+2018-06-24 17:56:34,930  [main] INFO  com.lxd.daily.netty.custom.NettyServer - Netty服务器启动成功：127.0.0.1:8888
+2018-06-24 17:56:42,429  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 握手请求消息：com.lxd.daily.netty.custom.pojo.NettyMessage@22d20c69[header=com.lxd.daily.netty.custom.pojo.Header@160105fa[crcCode=-1410399999,length=0,sessionID=0,type=3,priority=0],body=com.lxd.daily.netty.custom.pojo.Body@2144d1df[message=<null>,dateTime=2018-06-24 17:56:42,extents={hello=hahahah}]]
+2018-06-24 17:56:42,624  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthRespHandler - 握手应答消息：com.lxd.daily.netty.custom.pojo.NettyMessage@10f7182b[header=com.lxd.daily.netty.custom.pojo.Header@48eb1e49[crcCode=-1410399999,length=0,sessionID=0,type=4,priority=0],body=com.lxd.daily.netty.custom.pojo.Body@7e424932[message=00,dateTime=2018-06-24 17:56:42,extents={}]]
+2018-06-24 17:56:42,663  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 收到握手请求，客户端请求时间：2018-06-24 17:56:42，服务器当前时间：2018-06-24 17:56:42
+2018-06-24 17:56:42,663  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 握手成功：00
+2018-06-24 17:56:42,664  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 客户端完成握手，创建任务，开始心跳检测...
+2018-06-24 17:56:42,666  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@7ed80e50[header=com.lxd.daily.netty.custom.pojo.Header@6e37856d[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:56:42,666  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@50ed3dc1[header=com.lxd.daily.netty.custom.pojo.Header@58ae024[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:56:42,667  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@29c2a7f8[header=com.lxd.daily.netty.custom.pojo.Header@24a22696[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:56:42,667  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@118eca6b[header=com.lxd.daily.netty.custom.pojo.Header@47381c36[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:57:02,669  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@4b86e83e[header=com.lxd.daily.netty.custom.pojo.Header@53b20519[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:57:02,669  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@7300dfd6[header=com.lxd.daily.netty.custom.pojo.Header@4623d1b6[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:57:02,670  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@1bc14230[header=com.lxd.daily.netty.custom.pojo.Header@5e20213d[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:57:02,670  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@6e9806cb[header=com.lxd.daily.netty.custom.pojo.Header@66e98ecb[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:57:22,668  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@1ad25d30[header=com.lxd.daily.netty.custom.pojo.Header@598b19be[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:57:22,669  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@2babbb40[header=com.lxd.daily.netty.custom.pojo.Header@73dd71e2[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:57:22,669  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@621c7d6b[header=com.lxd.daily.netty.custom.pojo.Header@3d6a81dc[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:57:22,669  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@778be21a[header=com.lxd.daily.netty.custom.pojo.Header@5d3eb5f6[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:57:42,666  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@550d48bc[header=com.lxd.daily.netty.custom.pojo.Header@544afd4a[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:57:42,667  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@4b6d5c8a[header=com.lxd.daily.netty.custom.pojo.Header@53277664[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:57:42,668  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@52d1be4e[header=com.lxd.daily.netty.custom.pojo.Header@3b5ca1a9[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:57:42,668  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@7c794eeb[header=com.lxd.daily.netty.custom.pojo.Header@54c0d597[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:58:02,668  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@6b373f1b[header=com.lxd.daily.netty.custom.pojo.Header@68142f9a[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:58:02,669  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@1a742344[header=com.lxd.daily.netty.custom.pojo.Header@7208f238[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:58:02,669  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@2d7411f9[header=com.lxd.daily.netty.custom.pojo.Header@73fbac17[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:58:02,670  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@5eac3a65[header=com.lxd.daily.netty.custom.pojo.Header@c92204a[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:58:22,668  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@1383e694[header=com.lxd.daily.netty.custom.pojo.Header@70e273f1[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:58:42,672  [nioEventLoopGroup-0-5] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@10b8f119[header=com.lxd.daily.netty.custom.pojo.Header@1e7f1d7e[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:58:48,524  [main] INFO  com.lxd.daily.netty.custom.NettyServer - Netty服务器启动成功：127.0.0.1:8888
+2018-06-24 17:58:51,726  [nioEventLoopGroup-0-2] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 握手请求消息：com.lxd.daily.netty.custom.pojo.NettyMessage@53ee735c[header=com.lxd.daily.netty.custom.pojo.Header@557d9ee8[crcCode=-1410399999,length=0,sessionID=0,type=3,priority=0],body=com.lxd.daily.netty.custom.pojo.Body@2694ff8[message=<null>,dateTime=2018-06-24 17:58:51,extents={hello=hahahah}]]
+2018-06-24 17:58:51,918  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthRespHandler - 握手应答消息：com.lxd.daily.netty.custom.pojo.NettyMessage@317cca45[header=com.lxd.daily.netty.custom.pojo.Header@ca58580[crcCode=-1410399999,length=0,sessionID=0,type=4,priority=0],body=com.lxd.daily.netty.custom.pojo.Body@6b102fda[message=00,dateTime=2018-06-24 17:58:51,extents={}]]
+2018-06-24 17:58:51,937  [nioEventLoopGroup-0-2] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 收到握手请求，客户端请求时间：2018-06-24 17:58:51，服务器当前时间：2018-06-24 17:58:51
+2018-06-24 17:58:51,937  [nioEventLoopGroup-0-2] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 握手成功：00
+2018-06-24 17:58:51,937  [nioEventLoopGroup-0-2] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 客户端完成握手，创建任务，开始心跳检测...
+2018-06-24 17:58:51,938  [nioEventLoopGroup-0-2] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@4e79b180[header=com.lxd.daily.netty.custom.pojo.Header@6273138[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:58:51,938  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@c776bec[header=com.lxd.daily.netty.custom.pojo.Header@bf61935[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:58:51,939  [nioEventLoopGroup-1-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@4bcb1a7c[header=com.lxd.daily.netty.custom.pojo.Header@575578c8[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:58:51,940  [nioEventLoopGroup-0-2] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@21ad1211[header=com.lxd.daily.netty.custom.pojo.Header@11d95e8[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:59:06,921  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 握手请求消息：com.lxd.daily.netty.custom.pojo.NettyMessage@62118001[header=com.lxd.daily.netty.custom.pojo.Header@16f161d[crcCode=-1410399999,length=0,sessionID=0,type=3,priority=0],body=com.lxd.daily.netty.custom.pojo.Body@6f2e85f0[message=<null>,dateTime=2018-06-24 17:59:06,extents={hello=hahahah}]]
+2018-06-24 17:59:07,039  [nioEventLoopGroup-1-1] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthRespHandler - 握手应答消息：com.lxd.daily.netty.custom.pojo.NettyMessage@2856c679[header=com.lxd.daily.netty.custom.pojo.Header@2c6947ab[crcCode=-1410399999,length=0,sessionID=0,type=4,priority=0],body=com.lxd.daily.netty.custom.pojo.Body@696bcc42[message=00,dateTime=2018-06-24 17:59:07,extents={}]]
+2018-06-24 17:59:07,063  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 收到握手请求，客户端请求时间：2018-06-24 17:59:07，服务器当前时间：2018-06-24 17:59:07
+2018-06-24 17:59:07,063  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.ShakeHandAuthReqHandler - 握手成功：00
+2018-06-24 17:59:07,064  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 客户端完成握手，创建任务，开始心跳检测...
+2018-06-24 17:59:07,065  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@67592480[header=com.lxd.daily.netty.custom.pojo.Header@63370d3d[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:59:07,066  [nioEventLoopGroup-1-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@3e7af15c[header=com.lxd.daily.netty.custom.pojo.Header@944330d[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:59:07,068  [nioEventLoopGroup-1-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@513d41a7[header=com.lxd.daily.netty.custom.pojo.Header@4ce7a5c8[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:59:07,069  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@53b1efee[header=com.lxd.daily.netty.custom.pojo.Header@1b38784f[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:59:27,070  [nioEventLoopGroup-0-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@73217af4[header=com.lxd.daily.netty.custom.pojo.Header@7de68ae0[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:59:27,088  [nioEventLoopGroup-1-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@d0acee0[header=com.lxd.daily.netty.custom.pojo.Header@3681869f[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:59:27,088  [nioEventLoopGroup-1-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@47b9bc62[header=com.lxd.daily.netty.custom.pojo.Header@1078b719[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:59:27,089  [nioEventLoopGroup-0-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@79d91184[header=com.lxd.daily.netty.custom.pojo.Header@3cdb80db[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:59:47,070  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 发送心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@6ade2f45[header=com.lxd.daily.netty.custom.pojo.Header@6cd8fd0[crcCode=-1410399999,length=0,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:59:47,071  [nioEventLoopGroup-1-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 收到客户端心跳检测：com.lxd.daily.netty.custom.pojo.NettyMessage@4b5e0638[header=com.lxd.daily.netty.custom.pojo.Header@7151c4b2[crcCode=-1410399999,length=14,sessionID=0,type=5,priority=0],body=<null>]
+2018-06-24 17:59:47,071  [nioEventLoopGroup-1-1] INFO  com.lxd.daily.netty.custom.handler.HeartBeatRespHandler - 响应心跳：com.lxd.daily.netty.custom.pojo.NettyMessage@7b812c56[header=com.lxd.daily.netty.custom.pojo.Header@2e949c40[crcCode=-1410399999,length=0,sessionID=0,type=6,priority=0],body=<null>]
+2018-06-24 17:59:47,072  [nioEventLoopGroup-0-0] INFO  com.lxd.daily.netty.custom.handler.HeartBeatReqHandler - 收到服务端心跳响应：com.lxd.daily.netty.custom.pojo.NettyMessage@1cc65927[header=com.lxd.daily.netty.custom.pojo.Header@48744791[crcCode=-1410399999,length=14,sessionID=0,type=6,priority=0],body=<null>]
